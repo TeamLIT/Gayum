@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/AssetStoreFiles/UF Creator LITE/Demo_Scenes/Bandit_Camp_1A.unity
+  isLoaded: 1
+  isActive: 1

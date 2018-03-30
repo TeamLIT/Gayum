@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gayum", "Gayum.csproj", "{42EE0FF8-74BE-9B19-153B-34018DEF9164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gayum.Editor", "Gayum.Editor.csproj", "{0447246E-B5CB-B878-1263-6FAB1ED2698E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42EE0FF8-74BE-9B19-153B-34018DEF9164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42EE0FF8-74BE-9B19-153B-34018DEF9164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42EE0FF8-74BE-9B19-153B-34018DEF9164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42EE0FF8-74BE-9B19-153B-34018DEF9164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0447246E-B5CB-B878-1263-6FAB1ED2698E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0447246E-B5CB-B878-1263-6FAB1ED2698E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0447246E-B5CB-B878-1263-6FAB1ED2698E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0447246E-B5CB-B878-1263-6FAB1ED2698E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
