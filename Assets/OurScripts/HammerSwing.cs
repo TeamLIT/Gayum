@@ -11,19 +11,28 @@ public class HammerSwing : MonoBehaviour {
     bool swinging = false;
     float swingTime = 0.7f;
 
+    private Vector3 initialPosition;
+    private Quaternion initialRotation;
+
+
     SwingState state = SwingState.held;
 
     // Use this for initialization
     void Start()
     {
-
+        initialPosition = transform.localPosition;
+        initialRotation = transform.localRotation;
     }
 
     // Update is called once per frame
     void Update()
     {
+
         if (state == SwingState.held)
         {
+            transform.localRotation = initialRotation;
+            transform.localPosition = initialPosition;
+
             if (Input.GetKeyDown(KeyCode.R))
             {
                 state = SwingState.forward;
