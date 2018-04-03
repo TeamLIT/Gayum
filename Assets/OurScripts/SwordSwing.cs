@@ -15,10 +15,14 @@ public class SwordSwing : MonoBehaviour {
 
     SwingState state = SwingState.held;
 
+    private Vector3 initialPosition;
+    private Quaternion initialRotation;
+
     // Use this for initialization
     void Start()
     {
-
+        initialPosition = transform.localPosition;
+        initialRotation = transform.localRotation;
     }
 
     // Update is called once per frame
@@ -26,6 +30,9 @@ public class SwordSwing : MonoBehaviour {
     {
         if (state == SwingState.held)
         {
+            transform.localRotation = initialRotation;
+            transform.localPosition = initialPosition;
+
             if (Input.GetKeyDown(KeyCode.R))
             {
                 state = SwingState.forward;

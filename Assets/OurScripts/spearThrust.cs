@@ -16,15 +16,23 @@ public class spearThrust : MonoBehaviour {
 
     ThrustingState state = ThrustingState.held;
 
-	// Use this for initialization
-	void Start () {
-  
-	}
+    private Vector3 initialPosition;
+    private Quaternion initialRotation;
+
+    // Use this for initialization
+    void Start ()
+    {
+        initialPosition = transform.localPosition;
+        initialRotation = transform.localRotation;
+    }
 
     // Update is called once per frame
     void Update () {
         if (state == ThrustingState.held)
         {
+            transform.localRotation = initialRotation;
+            transform.localPosition = initialPosition;
+
             if (Input.GetKeyDown(KeyCode.R))
             {
                 state = ThrustingState.forward;
