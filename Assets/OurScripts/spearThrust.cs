@@ -11,7 +11,6 @@ public class spearThrust : MonoBehaviour {
     const float thrust = 0.26f;
 
     float timer = 0;
-    bool thrusting = false;
     float thrustTime = 0.25f;
 
     ThrustingState state = ThrustingState.held;
