@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Scripting;
 
 public class SwordSwing : MonoBehaviour {
 
@@ -12,6 +13,8 @@ public class SwordSwing : MonoBehaviour {
     float timer = 0;
     bool swinging = false;
     float swingTime = 0.25f;
+
+    int currentWeapon;
 
     SwingState state = SwingState.held;
 
