@@ -1,22 +1,23 @@
 fileFormatVersion: 2
-guid: 2646737ffaced0b48a3bd15d8828562b
-timeCreated: 1523112008
+guid: f2062babb21b579498bf85da3928c633
+timeCreated: 1523112946
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Cylinder01
-    9500000: //RootNode
+    100000: Box01
+    100002: //RootNode
+    400000: Box01
+    400002: //RootNode
+    2300000: Box01
+    3300000: Box01
+    4300000: Box01
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 01 - Default
-    second: {fileID: 2100000, guid: d9a6f758c891bc74f8420ff49e7ee07b, type: 2}
+      name: Box01Mat
+    second: {fileID: 2100000, guid: 7d44300274a11f9468e4b76f4a8dc933, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -88,7 +89,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
