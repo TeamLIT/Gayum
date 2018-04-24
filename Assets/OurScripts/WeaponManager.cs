@@ -7,6 +7,8 @@ public class WeaponManager : MonoBehaviour {
     public GameObject Sword;
     public GameObject Hammer;
     public GameObject Axe;
+    [Range(1, 50)]
+    public float reachDistance;
     public int weaponOut = 1; // 1 is spear, 2 is Sword, 3 is Hammer, 4 is Axe
     public GameObject script;
 
@@ -21,7 +23,7 @@ public class WeaponManager : MonoBehaviour {
         {
             Debug.Log("pressed E");
             RaycastHit hit;
-            if (Physics.Raycast(Camera.main.transform.position, transform.forward, out hit))
+            if (Physics.Raycast(Camera.main.transform.position, transform.forward, out hit, reachDistance))
             {
                 Debug.Log("Hit the object");
                 if (hit.transform.tag=="Item")
