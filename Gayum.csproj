@@ -276,9 +276,11 @@
     <Compile Include="Assets\AssetStoreFiles\torch\scene\script\TorchSlider.cs" />
     <Compile Include="Assets\AssetStoreFiles\torch\scene\script\Torchslider2.cs" />
     <Compile Include="Assets\AssetStoreFiles\torch\scripts\Torchelight.cs" />
+    <Compile Include="Assets\MainMenu.cs" />
     <Compile Include="Assets\OurScripts\camMovement.cs" />
     <Compile Include="Assets\OurScripts\FlickeringLight.cs" />
     <Compile Include="Assets\OurScripts\HammerSwing.cs" />
+    <Compile Include="Assets\OurScripts\MenuScript.cs" />
     <Compile Include="Assets\OurScripts\pMovement.cs" />
     <Compile Include="Assets\OurScripts\spearThrow.cs" />
     <Compile Include="Assets\OurScripts\spearThrust.cs" />
