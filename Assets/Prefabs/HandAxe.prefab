@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4365683294632262}
   - component: {fileID: 65314983037601544}
+  - component: {fileID: 114645478615507730}
   m_Layer: 0
   m_Name: HandAxe
   m_TagString: Item
@@ -63,14 +64,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1523044139893116}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 358.00082, y: 17.467, z: 280.64322}
-  m_LocalScale: {x: 0.021320838, y: 0.021320831, z: 0.021320831}
+  m_LocalRotation: {x: -0, y: 0.12352884, z: -0, w: 0.99234104}
+  m_LocalPosition: {x: 1.9841473, y: -0.055624783, z: 1.5131397}
+  m_LocalScale: {x: 0.028758645, y: 0.014379304, z: 0.028758612}
   m_Children:
   - {fileID: 4243998428950532}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -70.273, z: 0}
 --- !u!23 &23819458957900720
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -122,5 +123,16 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 27.34046, y: 6.43019, z: 56.76791}
-  m_Center: {x: -0.7087857, y: 2.7150517, z: -0.0033870672}
+  m_Size: {x: 5.9243097, y: 56.57937, z: 27.348776}
+  m_Center: {x: -0.39787117, y: -0.13304335, z: 0.5769472}
+--- !u!114 &114645478615507730
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1523044139893116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f434c707b462c45aafc1d352194332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

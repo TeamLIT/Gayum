@@ -37,6 +37,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4052656893243710}
   - component: {fileID: 65991002802744608}
+  - component: {fileID: 114644903306537578}
   m_Layer: 0
   m_Name: BronzeAxe
   m_TagString: Item
@@ -50,14 +51,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1612293881697736}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 353.12, y: 15.413, z: 283.82}
-  m_LocalScale: {x: 0.090433754, y: 0.09043378, z: 0.09043378}
+  m_LocalRotation: {x: -0, y: 0.065698594, z: -0, w: 0.99783957}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.056039017, y: 0.028019477, z: 0.056038965}
   m_Children:
   - {fileID: 4675786151272390}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -76.93101, z: 0}
 --- !u!4 &4675786151272390
 Transform:
   m_ObjectHideFlags: 1
@@ -122,5 +123,16 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.032324, y: 26.895195, z: 9.307826}
-  m_Center: {x: -0.00038625533, y: 12.947598, z: -0.56687295}
+  m_Size: {x: 2.5102544, y: 26.944096, z: 8.992582}
+  m_Center: {x: 0.009441195, y: 12.972045, z: 0.6174779}
+--- !u!114 &114644903306537578
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1612293881697736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f434c707b462c45aafc1d352194332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

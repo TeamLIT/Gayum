@@ -1,5 +1,5 @@
 # 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
-# File Created: 24.04.2018 21:09:43
+# File Created: 25.04.2018 18:54:48
 
 newmtl 01___Default
 	Ns 10.0000
@@ -12,5 +12,3 @@ newmtl 01___Default
 	Kd 0.5882 0.5882 0.5882
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka C:\Users\JStewart8\Desktop\weapon_pike01.jpg
-	map_Kd C:\Users\JStewart8\Desktop\weapon_pike01.jpg

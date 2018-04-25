@@ -9,17 +9,17 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1120991769949816}
+  m_RootGameObject: {fileID: 1143116511629176}
   m_IsPrefabParent: 1
---- !u!1 &1120991769949816
+--- !u!1 &1143116511629176
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4160654856868644}
-  - component: {fileID: 65672076493012712}
+  - component: {fileID: 4432289103951066}
+  - component: {fileID: 65534883649605114}
   m_Layer: 0
   m_Name: Pike
   m_TagString: Item
@@ -27,16 +27,16 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1744070812887488
+--- !u!1 &1533165697771096
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4390047173841498}
-  - component: {fileID: 33533408168975368}
-  - component: {fileID: 23362312820005620}
+  - component: {fileID: 4076480267059386}
+  - component: {fileID: 33177965811382772}
+  - component: {fileID: 23011218154930486}
   m_Layer: 0
   m_Name: Cylinder01
   m_TagString: Untagged
@@ -44,39 +44,39 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4160654856868644
+--- !u!4 &4076480267059386
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1120991769949816}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 362.16, y: 16.189, z: 282.31226}
-  m_LocalScale: {x: 0.02145116, y: 0.021451164, z: 0.021451164}
-  m_Children:
-  - {fileID: 4390047173841498}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4390047173841498
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1744070812887488}
+  m_GameObject: {fileID: 1533165697771096}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4160654856868644}
+  m_Father: {fileID: 4432289103951066}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23362312820005620
+--- !u!4 &4432289103951066
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1143116511629176}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 373.25906, y: 17.04, z: 290.08902}
+  m_LocalScale: {x: 0.02145116, y: 0.021451164, z: 0.021451164}
+  m_Children:
+  - {fileID: 4076480267059386}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23011218154930486
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1744070812887488}
+  m_GameObject: {fileID: 1533165697771096}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -105,22 +105,22 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33533408168975368
+--- !u!33 &33177965811382772
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1744070812887488}
+  m_GameObject: {fileID: 1533165697771096}
   m_Mesh: {fileID: 4300000, guid: dfecb733fc3806b418f5a4c2bf1b8fa0, type: 3}
---- !u!65 &65672076493012712
+--- !u!65 &65534883649605114
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1120991769949816}
+  m_GameObject: {fileID: 1143116511629176}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 226.56358, y: 14.564024, z: 15.455752}
-  m_Center: {x: -112.77879, y: 0.8776285, z: -0.1626216}
+  m_Size: {x: 16.857021, y: 14.564024, z: 235.94472}
+  m_Center: {x: 0.6238369, y: 0.8776287, z: 110.08187}

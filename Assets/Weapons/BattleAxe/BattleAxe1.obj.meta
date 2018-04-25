@@ -7,12 +7,18 @@ ModelImporter:
   fileIDToRecycleName:
     100000: //RootNode
     100002: default
+    100004: Axe_Cube
     400000: //RootNode
     400002: default
+    400004: Axe_Cube
     2100000: defaultMat
+    2100002: Material_01
     2300000: default
+    2300002: Axe_Cube
     3300000: default
+    3300002: Axe_Cube
     4300000: default
+    4300002: Axe_Cube
   externalObjects: {}
   materials:
     importMaterials: 1
