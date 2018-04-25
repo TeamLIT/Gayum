@@ -36,7 +36,7 @@ public class SwordSwing : MonoBehaviour {
             transform.localRotation = initialRotation;
             transform.localPosition = initialPosition;
 
-            if (Input.GetKeyDown(KeyCode.R))
+            if (Input.GetMouseButtonDown(0))
             {
                 state = SwingState.forward;
                 timer = 0;
