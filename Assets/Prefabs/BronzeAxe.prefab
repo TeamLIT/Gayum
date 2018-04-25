@@ -36,9 +36,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4052656893243710}
+  - component: {fileID: 65991002802744608}
   m_Layer: 0
   m_Name: BronzeAxe
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111,3 +112,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1443029832223232}
   m_Mesh: {fileID: 4300000, guid: e212b10956396f24f823b93c2d3b7ea8, type: 3}
+--- !u!65 &65991002802744608
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1612293881697736}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.032324, y: 26.895195, z: 9.307826}
+  m_Center: {x: -0.00038625533, y: 12.947598, z: -0.56687295}
