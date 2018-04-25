@@ -284,6 +284,7 @@
     <Compile Include="Assets\OurScripts\pMovement.cs" />
     <Compile Include="Assets\OurScripts\spearThrow.cs" />
     <Compile Include="Assets\OurScripts\spearThrust.cs" />
+    <Compile Include="Assets\OurScripts\StartScene.cs" />
     <Compile Include="Assets\OurScripts\StrafeMove.cs" />
     <Compile Include="Assets\OurScripts\SwordSwing.cs" />
     <Compile Include="Assets\OurScripts\WeaponManager.cs" />
