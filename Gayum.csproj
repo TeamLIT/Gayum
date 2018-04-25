@@ -281,6 +281,7 @@
     <Compile Include="Assets\OurScripts\FlickeringLight.cs" />
     <Compile Include="Assets\OurScripts\HammerSwing.cs" />
     <Compile Include="Assets\OurScripts\MenuScript.cs" />
+    <Compile Include="Assets\OurScripts\PauseMenu.cs" />
     <Compile Include="Assets\OurScripts\pMovement.cs" />
     <Compile Include="Assets\OurScripts\spearThrow.cs" />
     <Compile Include="Assets\OurScripts\spearThrust.cs" />
