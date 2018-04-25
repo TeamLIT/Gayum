@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gayum", "Gayum.csproj", "{42EE0FF8-74BE-9B19-153B-34018DEF9164}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gayum.Editor", "Gayum.Editor.csproj", "{0447246E-B5CB-B878-1263-6FAB1ED2698E}"

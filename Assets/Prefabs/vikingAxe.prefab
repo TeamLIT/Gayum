@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33337760158652978}
   - component: {fileID: 23931436151141762}
   m_Layer: 0
-  m_Name: VikingAxe
+  m_Name: vikingAxe
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
