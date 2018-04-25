@@ -2,8 +2,9 @@
 -target:library
 -nowarn:0169
 -langversion:4
--out:Temp/Assembly-CSharp.dll
+-out:Temp/Assembly-CSharp-Editor.dll
 -unsafe
+-r:Library/ScriptAssemblies/Assembly-CSharp.dll
 -r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
 -r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
 -r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
@@ -50,16 +51,32 @@
 -r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
 -r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/2015/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+-r:C:/Users/AJones45/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@1.0.7/Editor/UnityEditor.Advertisements.dll
 -r:C:/Users/AJones45/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll
+-r:C:/Users/AJones45/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/Editor/UnityEditor.Analytics.dll
 -r:C:/Users/AJones45/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll
+-r:C:/Users/AJones45/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/Editor/UnityEditor.Purchasing.dll
 -define:UNITY_5_3_OR_NEWER
 -define:UNITY_5_4_OR_NEWER
 -define:UNITY_5_5_OR_NEWER
@@ -71,7 +88,6 @@
 -define:UNITY_2017
 -define:PLATFORM_ARCH_64
 -define:UNITY_64
--define:UNITY_ANALYTICS
 -define:ENABLE_AUDIO
 -define:ENABLE_CACHING
 -define:ENABLE_CLOTH
@@ -156,78 +172,10 @@
 -define:UNITY_TEAM_LICENSE
 -define:ENABLE_VSTU
 -define:CROSS_PLATFORM_INPUT
-"Assets/AssetStoreFiles/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs"
-"Assets/AssetStoreFiles/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs"
-"Assets/AssetStoreFiles/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs"
-"Assets/AssetStoreFiles/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs"
-"Assets/AssetStoreFiles/Standard Assets/Characters/RollerBall/Scripts/Ball.cs"
-"Assets/AssetStoreFiles/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs"
-"Assets/AssetStoreFiles/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs"
-"Assets/AssetStoreFiles/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs"
-"Assets/AssetStoreFiles/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs"
-"Assets/AssetStoreFiles/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs"
-"Assets/AssetStoreFiles/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs"
-"Assets/AssetStoreFiles/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs"
-"Assets/AssetStoreFiles/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs"
-"Assets/AssetStoreFiles/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs"
-"Assets/AssetStoreFiles/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs"
-"Assets/AssetStoreFiles/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs"
-"Assets/AssetStoreFiles/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs"
-"Assets/AssetStoreFiles/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs"
-"Assets/AssetStoreFiles/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs"
-"Assets/AssetStoreFiles/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs"
-"Assets/AssetStoreFiles/Standard Assets/ParticleSystems/Scripts/AfterburnerPhysicsForce.cs"
-"Assets/AssetStoreFiles/Standard Assets/ParticleSystems/Scripts/ExplosionFireAndDebris.cs"
-"Assets/AssetStoreFiles/Standard Assets/ParticleSystems/Scripts/ExplosionPhysicsForce.cs"
-"Assets/AssetStoreFiles/Standard Assets/ParticleSystems/Scripts/Explosive.cs"
-"Assets/AssetStoreFiles/Standard Assets/ParticleSystems/Scripts/ExtinguishableParticleSystem.cs"
-"Assets/AssetStoreFiles/Standard Assets/ParticleSystems/Scripts/FireLight.cs"
-"Assets/AssetStoreFiles/Standard Assets/ParticleSystems/Scripts/Hose.cs"
-"Assets/AssetStoreFiles/Standard Assets/ParticleSystems/Scripts/ParticleSystemMultiplier.cs"
-"Assets/AssetStoreFiles/Standard Assets/ParticleSystems/Scripts/SmokeParticles.cs"
-"Assets/AssetStoreFiles/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs"
-"Assets/AssetStoreFiles/Standard Assets/Utility/ActivateTrigger.cs"
-"Assets/AssetStoreFiles/Standard Assets/Utility/AlphaButtonClickMask.cs"
-"Assets/AssetStoreFiles/Standard Assets/Utility/AutoMobileShaderSwitch.cs"
-"Assets/AssetStoreFiles/Standard Assets/Utility/AutoMoveAndRotate.cs"
-"Assets/AssetStoreFiles/Standard Assets/Utility/CameraRefocus.cs"
-"Assets/AssetStoreFiles/Standard Assets/Utility/CurveControlledBob.cs"
-"Assets/AssetStoreFiles/Standard Assets/Utility/DragRigidbody.cs"
-"Assets/AssetStoreFiles/Standard Assets/Utility/DynamicShadowSettings.cs"
-"Assets/AssetStoreFiles/Standard Assets/Utility/EventSystemChecker.cs"
-"Assets/AssetStoreFiles/Standard Assets/Utility/FollowTarget.cs"
-"Assets/AssetStoreFiles/Standard Assets/Utility/ForcedReset.cs"
-"Assets/AssetStoreFiles/Standard Assets/Utility/FOVKick.cs"
-"Assets/AssetStoreFiles/Standard Assets/Utility/FPSCounter.cs"
-"Assets/AssetStoreFiles/Standard Assets/Utility/LerpControlledBob.cs"
-"Assets/AssetStoreFiles/Standard Assets/Utility/ObjectResetter.cs"
-"Assets/AssetStoreFiles/Standard Assets/Utility/ParticleSystemDestroyer.cs"
-"Assets/AssetStoreFiles/Standard Assets/Utility/PlatformSpecificContent.cs"
-"Assets/AssetStoreFiles/Standard Assets/Utility/SimpleActivatorMenu.cs"
-"Assets/AssetStoreFiles/Standard Assets/Utility/SimpleMouseRotator.cs"
-"Assets/AssetStoreFiles/Standard Assets/Utility/SmoothFollow.cs"
-"Assets/AssetStoreFiles/Standard Assets/Utility/TimedObjectActivator.cs"
-"Assets/AssetStoreFiles/Standard Assets/Utility/TimedObjectDestructor.cs"
-"Assets/AssetStoreFiles/Standard Assets/Utility/WaypointCircuit.cs"
-"Assets/AssetStoreFiles/Standard Assets/Utility/WaypointProgressTracker.cs"
-Assets/AssetStoreFiles/torch/scene/script/TorchSlider.cs
-Assets/AssetStoreFiles/torch/scene/script/Torchslider2.cs
-Assets/AssetStoreFiles/torch/scripts/Torchelight.cs
-Assets/MainMenu.cs
-Assets/OurScripts/camMovement.cs
-Assets/OurScripts/FlickeringLight.cs
-Assets/OurScripts/HammerSwing.cs
-Assets/OurScripts/MenuScript.cs
-Assets/OurScripts/pMovement.cs
-Assets/OurScripts/spearThrow.cs
-Assets/OurScripts/spearThrust.cs
-Assets/OurScripts/StartScene.cs
-Assets/OurScripts/StrafeMove.cs
-Assets/OurScripts/SwordSwing.cs
-Assets/OurScripts/WeaponManager.cs
--r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
--r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
--r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
--r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.Lang.dll"
--r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\Boo.Lang.dll"
--sdk:unity
+"Assets/AssetStoreFiles/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\Boo.Lang.dll"
+-sdk:2.0
